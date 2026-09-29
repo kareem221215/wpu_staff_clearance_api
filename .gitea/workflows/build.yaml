@@ -61,7 +61,7 @@ jobs:
             --name ${{ gitea.event.repository.name }} \
             --add-host host.docker.internal=host-gateway \
             --restart unless-stopped \
-            -p 3019:3000 \
+            -p 3023:3000 \
             -e APP_JWT_SECRET="$APP_JWT_SECRET" \
             -e APP_DB_PASSWORD="$APP_DB_PASSWORD" \
             ${{ vars.REGISTRY_HOST }}/${{ gitea.repository_owner }}/${{ gitea.event.repository.name }}:latest
