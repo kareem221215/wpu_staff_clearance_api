@@ -54,7 +54,7 @@ jobs:
       - name: Run Container
         env:
           APP_JWT_SECRET: ${{ secrets.APP_JWT_SECRET }}
-          APP_DB_PASSWORD: ${{ secrets.WPU_STUDENT_CLEARANCE_DB_PASSWORD }}
+          APP_DB_PASSWORD: ${{ secrets.WPU_STAFF_CLEARANCE_DB_PASSWORD }}
         run: |
           docker run \
             -d \
