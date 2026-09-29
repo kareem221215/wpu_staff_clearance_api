@@ -1,0 +1,16 @@
+export enum UserRoleEnum {
+  ACCOUNTING_MANAGER = 'accounting-manager',
+  ACCOUNTING_STAFF_STAFF = 'accounting-staff-staff',
+  ACCOUNTING_STUDENT_STAFF = 'accounting-student-staff',
+  ADMIN = 'admin',
+  AFFAIRS_COLLEGE_STAFF = 'affairs-college-staff',
+  AFFAIRS_MANAGER = 'affairs-manager',
+  CENTRAL_LIBRARY_MANAGER = 'central-library-manager',
+  COLLEGE_DEAN = 'college-dean',
+  COLLEGE_LAB_SUPERVISOR = 'college-lab-supervisor',
+  COLLEGE_LIB_SUPERVISOR = 'college-lib-supervisor',
+  GRADUATE_TRACKING_MANAGER = 'graduate-tracking-manager',
+  HR_STAFF = 'hr-staff',
+  IT_MANAGER = 'it-manager',
+  STOREKEEPER = 'storekeeper',
+}
